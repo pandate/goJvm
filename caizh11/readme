@@ -1,0 +1,4 @@
+System类的初始化过程分为两个阶段。第一个阶
+段由类初始化方法完成，在这个方法中registerNatives（）方法会注册
+其他本地方法。第二个阶段由VM完成，在这个阶段VM会调用
+System.initializeSystemClass（）方法。
